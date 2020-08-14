@@ -35,7 +35,7 @@ Currently all training and inference operations take place within the `train.ipy
 
 - [x] Implement basic pytorch image classifier
 - [x] GPU checking and GPU training
-- [x] Document dependencies and packages required to train the classifier.
+- [x] Document dependencies and packages required to train the classifier
+- [x] Export trained model to ONNX, so that it can be further optimised for TensorRT deployment
+- [ ] Investigate how to extend this to classify `oragne traffic cones`
 - [ ] `pytorch-lightning` module to improve reproducibility and reduce boiler plate
-- [ ] Export trained model to ONNX, so that it can be further optimised for TensorRT deployment.
-- [ ] Investigate how to extend this to classify `oragne traffic cones`.
